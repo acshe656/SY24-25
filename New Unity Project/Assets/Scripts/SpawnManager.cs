@@ -21,6 +21,6 @@ public class SpawnManager : MonoBehaviour
     }
     void SpawnObstacle()
     {
-    Instantiate(obstaclePrefab, spawnpos, obstaclePrefab.transform.rotation);
+            Instantiate(obstaclePrefab, spawnpos, obstaclePrefab.transform.rotation);
 }
 }
